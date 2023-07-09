@@ -1,0 +1,263 @@
+|lab9
+clk => clk.IN1
+k0 => k0.IN1
+k1 => k1.IN1
+k2 => k2.IN1
+k3 => k3.IN1
+k4 => k4.IN1
+k5 => k5.IN1
+k6 => k6.IN1
+k7 => k7.IN1
+k8 => k8.IN1
+k9 => k9.IN1
+LED[0] <= fsm:Fsm.port2
+LED[1] <= fsm:Fsm.port2
+LED[2] <= fsm:Fsm.port2
+LED[3] <= fsm:Fsm.port2
+unlock <= fsm:Fsm.port3
+
+
+|lab9|div:Div
+clk => q[0].CLK
+clk => q[1].CLK
+clk => q[2].CLK
+clk => q[3].CLK
+clk => q[4].CLK
+clk => q[5].CLK
+clk => q[6].CLK
+clk => q[7].CLK
+clk => q[8].CLK
+clk => q[9].CLK
+clk => q[10].CLK
+clk => q[11].CLK
+clk => q[12].CLK
+clk => q[13].CLK
+clk => q[14].CLK
+clk => q[15].CLK
+clk => q[16].CLK
+clk => q[17].CLK
+clk => q[18].CLK
+clk => clk_out~reg0.CLK
+clk_out <= clk_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l0
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l1
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l2
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l3
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l4
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l5
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l6
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l7
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l8
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|level_to_pulse:l9
+clk => P~reg0.CLK
+clk => state~4.DATAIN
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => state.OUTPUTSELECT
+L => P.DATAB
+L => state.DATAB
+L => state.DATAB
+P <= P~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|coder:Coder
+clk => Y[0]~reg0.CLK
+clk => Y[1]~reg0.CLK
+clk => Y[2]~reg0.CLK
+clk => Y[3]~reg0.CLK
+I[0] => Y.DATAA
+I[1] => Y.OUTPUTSELECT
+I[1] => Y.DATAA
+I[2] => Y.OUTPUTSELECT
+I[2] => Y.OUTPUTSELECT
+I[2] => Y.OUTPUTSELECT
+I[3] => Y.OUTPUTSELECT
+I[3] => Y.OUTPUTSELECT
+I[3] => Y.OUTPUTSELECT
+I[4] => Y.OUTPUTSELECT
+I[4] => Y.OUTPUTSELECT
+I[4] => Y.OUTPUTSELECT
+I[4] => Y.DATAA
+I[5] => Y.OUTPUTSELECT
+I[5] => Y.OUTPUTSELECT
+I[5] => Y.OUTPUTSELECT
+I[5] => Y.OUTPUTSELECT
+I[6] => Y.OUTPUTSELECT
+I[6] => Y.OUTPUTSELECT
+I[6] => Y.OUTPUTSELECT
+I[6] => Y.OUTPUTSELECT
+I[7] => Y.OUTPUTSELECT
+I[7] => Y.OUTPUTSELECT
+I[7] => Y.OUTPUTSELECT
+I[7] => Y.OUTPUTSELECT
+I[8] => Y.OUTPUTSELECT
+I[8] => Y.OUTPUTSELECT
+I[8] => Y.OUTPUTSELECT
+I[8] => Y.OUTPUTSELECT
+I[9] => Y.OUTPUTSELECT
+I[9] => Y.OUTPUTSELECT
+I[9] => Y.OUTPUTSELECT
+I[9] => Y.OUTPUTSELECT
+Y[0] <= Y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab9|fsm:Fsm
+X[0] => Equal0.IN31
+X[0] => Equal1.IN31
+X[0] => Equal2.IN31
+X[0] => Equal3.IN31
+X[1] => Equal0.IN30
+X[1] => Equal1.IN0
+X[1] => Equal2.IN30
+X[1] => Equal3.IN1
+X[2] => Equal0.IN0
+X[2] => Equal1.IN30
+X[2] => Equal2.IN29
+X[2] => Equal3.IN30
+X[3] => Equal0.IN29
+X[3] => Equal1.IN29
+X[3] => Equal2.IN28
+X[3] => Equal3.IN0
+clk => unlock~reg0.CLK
+clk => state~4.DATAIN
+LED[0] <= LED[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= LED.DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= LED.DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= LED.DB_MAX_OUTPUT_PORT_TYPE
+unlock <= unlock~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

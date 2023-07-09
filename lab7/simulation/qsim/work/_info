@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CodeField/CODE_FPGA/DE/lab7/simulation/qsim
+vhard_block
+Z1 !s110 1667540614
+!i10b 1
+!s100 d=4c7AoLKT7;Y5hz?ob]H3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:=CQGmEMgWJ6gfI[2=W<e2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1667540602
+Z5 8lab7.vo
+Z6 Flab7.vo
+!i122 0
+L0 236 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1667540614.000000
+Z9 !s107 lab7.vo|
+Z10 !s90 -work|work|lab7.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlab7
+R1
+!i10b 1
+!s100 @VI7`L?m^_hoPjBaD0O8o0
+R2
+IU]GeHCdUJiX5WjAlf5`ag2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 203
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlab7_vlg_vec_tst
+R1
+!i10b 1
+!s100 lhTci]SBKb6C6OGlG@J7;0
+R2
+IUzd;D4?97Oal_mh61]njI2
+R3
+R0
+w1667540601
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 62
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

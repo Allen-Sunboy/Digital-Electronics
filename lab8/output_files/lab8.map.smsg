@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at lab8.v(5): always construct contains both blocking and non-blocking assignments File: D:/CodeField/CODE_FPGA/DE/lab8/lab8.v Line: 5
